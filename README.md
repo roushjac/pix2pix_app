@@ -1,16 +1,14 @@
-# pix2pix_app
+# pix2pix_app - Deep Sketcher
 
-A new Flutter project.
+A mobile implementation of the pix2pix deep learning algorithm. The model associated with this app is found in my repo forked from the original Tensorflow implementation [here](https://github.com/affinelayer/pix2pix-tensorflow).
 
-## Getting Started
+[Interactive web demo](https://affinelayer.com/pixsrv/) - example of what this app will do.
 
-This project is a starting point for a Flutter application.
+As of May 2019, this project is being put on hold to work on other projects. Implementing the model on a mobile device will take more time than was anticipated at the undertaking of this project.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## TODO
+1. Convert the output of the original pix2pix tensorflow implementation into .tflite format
+  a) OR write new implementation in tensorflow 2.0/keras - would take more time but give me a much better understanding of the model
+2. Deploy the model to Firebase
+3. Use image drawn on mobile screen as input to model
+4. Display output of model onto screen
